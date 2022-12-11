@@ -45,8 +45,8 @@
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
@@ -67,9 +67,3 @@
 @import url(../blocks/link-hover/link-hover.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/root/root.css);
-
-/* Касательно приорета стилей в теории было написанно так:
-Стили, идущие ниже в коде, приоритетнее тех, что выше. CSS-свойства модификатора, 
-импортированного в начале файла, могут не примениться из-за написанных ниже CSS-свойств 
-для элемента или блока. И здесь либо я не правильно понял, что внизу должны идти самые приоретеные 
-стили, либо ошибка в самом теоретическом материале */
